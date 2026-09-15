@@ -1,6 +1,7 @@
 ARCHIVOS csv crudos, y limpios
 
-https://drive.google.com/drive/folders/171LEWq4gbTWnYwt4YLRXASdoSgH9aXcq?usp=sharing
+https://uniminuto0-my.sharepoint.com/:f:/g/personal/emelin_rubiano_uniminuto_edu_co/IgBTGesoYcyWSrdEF8_OHqZlAQNIo4kw3mzk9I87xceu4yc?email=esteban.morales.c%40uniminuto.edu.co&e=5HdeoD 
+
 
 # FASE_1_Planificacion_y_Requisitos.md
 
