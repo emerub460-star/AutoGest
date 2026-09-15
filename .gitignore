@@ -1,0 +1,23 @@
+# Datasets masivos (se regeneran con sesiones/*.py)
+data_pipeline/data/raw/*.csv
+data_pipeline/data/processed/*.csv
+*.parquet
+
+# Entornos y secretos
+.env
+.env.local
+node_modules/
+__pycache__/
+.venv/
+venv/
+
+# Frontends
+apps/web/dist/
+apps/web/.vite/
+
+# Expo / RN
+apps/mobile/.expo/
+apps/mobile/node_modules/
+
+# Postgres / docker
+.data/
