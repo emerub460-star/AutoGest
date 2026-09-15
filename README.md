@@ -101,10 +101,9 @@ AutoGest/
 │   │   └── processed/       # Excluido en .gitignore
 │   └── scripts/             # Limpieza, cruce left join e IQR
 └── .gitignore
+.
 
-
-
-# FASE_3_Datos_y_Backend_Base.md
+* **FASE_3_Datos_y_Backend_Base.md**
 
 # AutoGest — Fase 3: Datos y Backend Base
 
@@ -198,9 +197,7 @@ CREATE TABLE servicios_grua (
 
 
 
-
-
-# FASE_4_Modulos_Operativos_Principales.md
+* **FASE_4_Modulos_Operativos_Principales.md**
 
 # AutoGest — Fase 4: Módulos Operativos Principales
 
@@ -220,8 +217,7 @@ def actualizar_kilometraje(id_vehiculo: int, datos: LecturaKilometrajeCreate, db
     return {"status": "ok", "kilometraje_actual": vehiculo.kilometraje_actual}
 
 
-
- # FASE_5_IA_y_Analisis_Climatico.md
+* **FASE_5_IA_y_Analisis_Climatico.md**
 
 # AutoGest — Fase 5: Módulo de IA y Análisis Climático
 
@@ -246,9 +242,9 @@ def evaluar_riesgo_preventivo(id_vehiculo: int, sintomas: str, db: Session) -> d
     return json.loads(response.choices[0].message.content)
 
 
+"""
 
-
-# FASE_6_Emergencias_Geolocalizacion_y_Frontend.md
+* **FASE_6_Emergencias_Geolocalizacion_y_Frontend.md**
 
 # AutoGest — Fase 6: Emergencias, Geolocalización y Frontend
 
@@ -267,7 +263,7 @@ def generar_qr_vehiculo(id_vehiculo: int, db: Session) -> str:
 
 
 
-# FASE_7_QA_Calidad_Seguridad_y_Despliegue.md
+**FASE_7_QA_Calidad_Seguridad_y_Despliegue.md**
 
 # AutoGest — Fase 7: QA, Calidad, Seguridad y Despliegue
 
@@ -291,7 +287,6 @@ function App() {
     </Routes>
   );
 }
-
 
 
 
